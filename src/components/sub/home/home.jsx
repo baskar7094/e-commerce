@@ -7,7 +7,7 @@ export default function Home() {
 <>    <div className='bgImg'>
       <div className= ' container-fluid ' >
 <div className='d-flex flex-column section01   gap-lg-3    justify-content-center align-items-center  '>
-<p className='text-sm '>holloo everyOne welcome this page </p>
+<p className='text-sm '>hollo everyOne welcome this page </p>
 <h1 className=' '>world populatest website in 2024 </h1>
 <h3 className=''>best discount cupons & free shipping & free giviway</h3>
 <h2 className=' ' >most visit website in <span>live 100+millions vistors</span> </h2>
