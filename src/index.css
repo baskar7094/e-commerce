@@ -1,0 +1,29 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.bgImg{
+  background:  linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('../../../../../public/banner-03.jpg') ;
+  background-size: cover;
+  background-attachment: fixed;
+  width:100vw;
+  height: 85vh;
+  overflow-x: hidden;
+}
+  
+  
+  .bgImg{
+      background:  linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('../../../../../public/banner-03.jpg') ;
+      background-size: cover;
+      background-attachment: fixed;
+      width:100vw;
+      height: 86vh;
+      overflow-x: hidden;
+  }

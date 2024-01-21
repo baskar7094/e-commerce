@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.card{
+width: 85%;
+margin:  100px auto;
+padding: 50px;
+}
+.card-body{
+    display: flex;
+    gap: 50px;
+}
+.card-img{
+width: 300px !important;
+height:200px;
+transform: translateX(-80px);
+background-position: center;
+object-fit: cover;
+object-position: center;
+background-size: cover;
+}
+@media all and (max-width:320px) {
+    .card{
+    width: 85%;
+    margin:  50px auto;
+    padding: 10px;
+    }
+    .card-body{
+        display: block;
+        gap: 50px;
+    }
+    .card-img{
+    width: 300px !important;
+    height:200px;
+    transform: translateX(-80px);
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+    }
+}
+@media all and (min-width:320px) {
+    .card{
+    width: 85%;
+    margin:  50px auto;
+    padding: 10px;
+    text-align: center;
+    }
+    .card-body{
+        display: block;
+        gap: 50px;
+    }
+    .card-img{
+    width: 300px !important;
+    height:200px;
+    transform: translateX(-0px);
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+    background-size: cover;
+    margin-bottom: 0 auto;
+    }
+}
+@media all and (min-width:1020px) {
+    .card{
+    width: 85%;
+    margin:  50px auto;
+    padding: 10px;
+    text-align: center;
+    }
+    .card-body{
+        display: flex;
+        gap: 50px;
+    }
+    .card-img{
+    width: 500px !important;
+    height:220px;
+    transform: translateX(-140px);
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+    background-size: cover;
+    margin-bottom: 0 auto;
+    }
+}
+@media all and (min-width:2560px) {
+    .card{
+    width: 90%;
+    margin:  50px auto;
+    padding: 100px;
+    text-align: center;
+    }
+    .card-body{
+        display: flex;
+        gap: 40px;
+    }
+    .card-img{
+    width: 900px !important;
+    height:390px;
+    transform: translateX(-220px);
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+    background-size: cover;
+    margin-bottom: 0 auto;
+    }
+    .card-title{
+        font-size: 70px;
+        }
+        .card-para{
+        font-size: 30px;
+        width: 90%;
+        }
+}

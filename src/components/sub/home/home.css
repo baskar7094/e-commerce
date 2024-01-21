@@ -1,0 +1,34 @@
+.bgImg{
+    background:  linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.4)),url("https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+    background-attachment: fixed;
+    width:100vw;
+    height: 84vh;
+    overflow-x: hidden;
+}
+*{
+    color: white;
+}
+.section01 >  p:first-child{font-size: 15px ; text-align: center; text-transform: capitalize;font-weight: 500;}
+.section01 > h1{font-size: 40px; font-weight: 700;text-transform: capitalize;}
+.section01 > h2{font-size: 40px; font-weight: 700;text-transform: capitalize;}
+.section01 > h3{font-size: 45px; font-weight: 700;text-transform: capitalize;}
+.section01 > p:last-child{
+width: 95%; font-size: 18px; text-align: center;
+padding-top: 18px ; text-transform: capitalize;
+}
+@media all and (max-width:320px) {
+    .bgImg{
+        height: 100vh;
+    }
+    .section01 >  p:first-child{font-size: 10px ; text-align: center; text-transform: capitalize;font-weight: 500;}
+    .section01 > h1{font-size: 25px; font-weight: 700;text-transform: capitalize;}
+    .section01 > h2{font-size: 25px; font-weight: 700;text-transform: capitalize;}
+    .section01 > h3{font-size: 25px; font-weight: 700;text-transform: capitalize;}
+    .section01 > p:last-child{
+    width: 95%; font-size: 10px; text-align: center;
+    padding-top: 10px ; text-transform: capitalize;
+    }
+}
