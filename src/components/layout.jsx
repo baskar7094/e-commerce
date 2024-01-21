@@ -11,7 +11,7 @@ export default function Layout() {
         </Link>
         <button className=' navbar-toggler  ' type='button' data-bs-target='#NavbarTroggler' data-bs-toggle='collapse'><span className=' navbar-toggler-icon '></span></button>
         <div className='collapse navbar-collapse ' id='NavbarTroggler'>
-          <ul className='navbar-nav gap-lg-3'>
+          <ul className='navbar-nav gap-lg-3 gap-3   '>
             <li className='nav-item'>
               <Link to={'/'} className='link'>home</Link>
             </li>
@@ -24,8 +24,8 @@ export default function Layout() {
             <li className='nav-item'>
               <Link to={'/collections'} className='link'>products</Link>
             </li>
-        <li>
-        <Link to={'/login'} className='link pe-lg-3   d-lg-none  ' >login</Link>
+        <li className='nav-item'>
+        <Link to={'/login'} className='link  pe-lg-3   d-lg-none  ' >login</Link>
 
         </li>
           </ul>

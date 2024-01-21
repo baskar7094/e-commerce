@@ -1,3 +1,4 @@
+
 section    label , button{
     color: black ;
 }
@@ -28,6 +29,10 @@ legend{
 .address-txt{
     font-size: 20px;
 }
+label{
+    text-align: start !important;
+
+}
 @media all and (max-width:320px) {
     
     p img{
@@ -43,6 +48,7 @@ legend{
     }
     legend{
         margin-left: 30px;
+        font-size:18px !important;
     
     }
     .bg-color{
@@ -52,11 +58,12 @@ legend{
     .address-txt{
         font-size: 15px;
     }
-    .form-label{
-        font-size: 15px;
+
+    label{
+        font-size: 15px !important; 
     }
 }
-@media all and (min-width:320px) {
+@media all and (min-width:375px) {
     
     p img{
         width: 20px;
@@ -72,7 +79,7 @@ legend{
     legend{
         margin-left: 30px;
         font-weight: 800;
-    
+  font-size: 23px !important;  
     }
     .bg-color{
         background: #2e2c2c;
@@ -84,6 +91,10 @@ legend{
     .form-label{
         font-size: 18px;
     }
+    label{
+        font-size: 20px !important; 
+    }
+
 }
 @media all and (min-width:768px) {
     

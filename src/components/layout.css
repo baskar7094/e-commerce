@@ -7,7 +7,7 @@ padding: 0;
 .link{
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
   }
@@ -20,7 +20,7 @@ padding: 0;
   }
 nav  img{
     width: 80px;
-    height: 60px;
+    height: 30px;
     object-fit: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -56,7 +56,10 @@ nav  img{
 nav form {
 display: none;
 }
-
+.nav-item{
+  margin-left: 40%;
+  padding-top: 10px;
+}
 }
 @media all and (min-width:2560px) {
   .link{
@@ -102,16 +105,15 @@ nav  img{
 }
   
 nav form {
-display: flex;
+display: flex !important;
 font-size: 20px;
 margin-right: -10px !important;
 }
-
 }
-@media all and (max-width:425px) {
+@media all and (max-width:320) {
   .link{
     font-size: 18px !important;
-    font-weight: 600;
+    font-weight: 400 !important;
   }
   
   .link:hover{
@@ -124,6 +126,7 @@ nav  img{
     border-radius: 10px;
     margin-left: 10px;
     object-fit: cover;
+    background-size: cover;
     object-position: center;
 }
   
@@ -133,4 +136,14 @@ font-size: 20px;
 margin-right: -10px !important;
 }
 
+}
+
+@media all and (max-width:1020px) {
+nav form{
+  display: none;
+}
+.nav-item{
+  margin-left: 45%;
+
+}
 }

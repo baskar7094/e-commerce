@@ -8,6 +8,11 @@
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
 }
+body{
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400;
+
+}
 
 .bgImg{
   background:  linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('../../../../../public/banner-03.jpg') ;

@@ -43,6 +43,9 @@ background-size: cover;
     background-size: cover;
     margin-bottom: 20px;
     }
+    .card-title{
+        font-size: 20px;
+    }
 }
 @media all and (min-width:320px) {
     .card{

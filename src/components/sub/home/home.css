@@ -6,7 +6,7 @@
     background-attachment: fixed;
     width:100vw;
     height: 84vh;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 *{
     color: white;
@@ -24,11 +24,11 @@ padding-top: 18px ; text-transform: capitalize;
         height: 100vh;
     }
     .section01 >  p:first-child{font-size: 10px ; text-align: center; text-transform: capitalize;font-weight: 500;}
-    .section01 > h1{font-size: 25px; font-weight: 700;text-transform: capitalize;}
-    .section01 > h2{font-size: 25px; font-weight: 700;text-transform: capitalize;}
-    .section01 > h3{font-size: 25px; font-weight: 700;text-transform: capitalize;}
+    .section01 > h1{font-size: 19px; font-weight: 500;text-transform: capitalize;}
+    .section01 > h2{font-size: 19px; font-weight: 500;text-transform: capitalize;}
+    .section01 > h3{font-size: 19px; font-weight: 500;text-transform: capitalize;}
     .section01 > p:last-child{
     width: 95%; font-size: 10px; text-align: center;
-    padding-top: 10px ; text-transform: capitalize;
+    padding-top: 30px ; text-transform: capitalize;
     }
 }
