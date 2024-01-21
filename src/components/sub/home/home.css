@@ -12,9 +12,9 @@
     color: white;
 }
 .section01 >  p:first-child{font-size: 15px ; text-align: center; text-transform: capitalize;font-weight: 500;}
-.section01 > h1{font-size: 40px; font-weight: 700;text-transform: capitalize;}
-.section01 > h2{font-size: 40px; font-weight: 700;text-transform: capitalize;}
-.section01 > h3{font-size: 45px; font-weight: 700;text-transform: capitalize;}
+.section01 > h1{font-size: 25px; font-weight: 600;text-transform: capitalize;}
+.section01 > h2{font-size: 25px; font-weight: 600;text-transform: capitalize;}
+.section01 > h3{font-size: 25px; font-weight: 600;text-transform: capitalize;}
 .section01 > p:last-child{
 width: 95%; font-size: 18px; text-align: center;
 padding-top: 18px ; text-transform: capitalize;
