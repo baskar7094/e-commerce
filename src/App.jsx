@@ -6,6 +6,8 @@ import Home from './components/sub/home/home'
 import About from './components/sub/about/about'
 import Contact from './components/sub/contact/contact'
 import Collection from './components/products/collections/collection'
+import Register from './authodcation/register'
+import Login from './authodcation/login'
 
 
  function App() {
@@ -19,6 +21,9 @@ import Collection from './components/products/collections/collection'
   <Route path='about' element={<About/>}/>
   <Route path='contact' element={<Contact/>}/>
   <Route path='collections' element={<Collection/>}/>
+  <Route path='register' element={<Register/>}/>
+  <Route path='login' element={<Login/>}/>
+
 </Route>
 
   </Routes>

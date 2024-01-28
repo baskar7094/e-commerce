@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 import './collections.css'
 const brandImg = `https://bcassetcdn.com/public/blog/wp-content/uploads/2021/11/10190851/Louis-Vuitton-1.png`
 
+
+
+
 export default function Collection() {
   return (
     <div>
@@ -89,6 +92,8 @@ img={`https://m.media-amazon.com/images/I/8195A49fZbL._SX679_.jpg`}
   discount={`  $${20}% `}
    total={15000}
    />
+   <Cards 
+   img={''}/>
 
 
 </div>
@@ -122,4 +127,13 @@ function Cards(props){
         </>
     )
 }
+
+
+ export const mobiles = {
+    iphone:{
+        id:1,img:'',itemname:'iphone',price:60000,decribtion:'good camera good quilty'},
+mi:{
+}
+    }
+
 

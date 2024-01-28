@@ -25,7 +25,7 @@ export default function Layout() {
               <Link to={'/collections'} className='link'>products</Link>
             </li>
         <li className='nav-item'>
-        <Link to={'/login'} className='link  pe-lg-3   d-lg-none  ' >login</Link>
+        <Link to={'./authodcation/login'} className='link  pe-lg-3   d-lg-none   ' >login</Link>
 
         </li>
           </ul>
@@ -35,7 +35,27 @@ export default function Layout() {
           <button type='submit'> submit</button>
           
         </form>
-        <h5 className='link pe-lg-1   p-lg-3  d-none  d-lg-flex pe-lg-4  '>login</h5>
+        <li className='nav-item d-none d-lg-block   mx-5'>
+        <Link  className='link  pe-lg-3       ' type='button' data-bs-toggle='modal' data-bs-target='#account' >account
+            <div className='modal fade ' id='account'>
+<div className=' modal-dialog  ' >
+  <div className=' modal-content bg-primary-subtle  '>
+    <div className=' modal-body '>
+              <li className='nav-item  '>
+                <Link to={'/register'} className='nav-link text-primary  ' >register</Link>
+              </li>
+              <li className='nav-item  '>
+                <Link to={'/login'} className='nav-link text-danger'>login</Link>
+              </li>
+    </div>
+  </div>
+</div>
+      
+            </div>
+  
+        </Link>
+
+        </li>
       </nav>
       
       <Outlet />
