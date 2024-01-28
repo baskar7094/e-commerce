@@ -9,7 +9,7 @@ export default function Layout() {
         <Link to={'/'} className=' navbar-brand '>
           <img src='https://cdn.logojoy.com/wp-content/uploads/2018/05/30143400/210.png' alt='online-shooping' />
         </Link>
-        <button className=' navbar-toggler  ' type='button' data-bs-target='#NavbarTroggler' data-bs-toggle='collapse'><span className=' navbar-toggler-icon '></span></button>
+        <button className=' navbar-toggler  me-5  ' type='button' data-bs-target='#NavbarTroggler' data-bs-toggle='collapse'><span className=' navbar-toggler-icon '></span></button>
         <div className='collapse navbar-collapse ' id='NavbarTroggler'>
           <ul className='navbar-nav gap-lg-3 gap-3   '>
             <li className='nav-item'>

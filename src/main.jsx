@@ -7,6 +7,9 @@ import 'bootstrap/dist/js/bootstrap.js'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <div className=' lato-regular '>
     <App />
+
+    </div>
   </React.StrictMode>,
 )

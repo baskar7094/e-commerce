@@ -13,9 +13,8 @@ export default function About() {
                         </div>
                         <div className=' d-lg-flex flex-column gap-lg-3 text-capitalize'>
 
-                            <h1 className="card-title">human develpor online shopping</h1>
-                            <h3 className='card-title'>online shopping getway </h3>
-                            <p className='card-para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aut aliquid voluptatem cumque aspernatur necessitatibus voluptatibus pariatur, explicabo facilis provident, cupiditate cum recusandae nam at, minus sapiente dolor qui reiciendis?</p>
+                            <h1 className="card-title">Elevating Everyday Moments with the Art of Shopping</h1>
+                            <p className='card-para'> In today's world, where choices abound, shopping is more than a task. It's a chance to back businesses with our values - be it eco-friendly, ethical, or community-minded.</p>
                         </div>
 
                     </div>

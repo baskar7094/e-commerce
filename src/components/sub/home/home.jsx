@@ -4,14 +4,15 @@ import About from '../about/about'
 import Contact from '../contact/contact'
 export default function Home() {
   return (
-<>    <div className='bgImg'>
+<>    <div className='bgImg lato-regular ' >
       <div className= ' container-fluid ' >
 <div className='d-flex flex-column section01   gap-lg-3    justify-content-center align-items-center  '>
-<p className='text-sm '>hollo everyOne welcome this page </p>
-<h1 className=''>world populatest website in 2024 </h1>
-<h3 className=''>best discount cupons & free shipping & free giviway</h3>
-<h2 className=' ' >most visit website in <span>live 100+millions vistors</span> </h2>
-<p className=''  >I being a shop o' holic love to shop. We shop as per our needs we shop in many waysNowadays there are many ways of shopping any item from groceries to your clothes . Some of the ways are you can go to a market , call for the product you wish to buy and the best is one is online shopping. So shopping online is the best way of shopping bcoz it saves time you can see reviews of products and you can easily return the product. So shopping means buying a product .</p>
+<p className='text-sm '>"Transformative Retail Experiences for a Fulfilling Life."</p>
+<h1 className=''>"Unlock Extraordinary Joy: Dive into Unmatched Shopping Bliss Today!" </h1>
+<h3 className=''>"Shop Smarter, Live Happier: Elevate Your Lifestyle with Unique Retail Delights!"</h3>
+<h2 className=' ' >
+"Indulge Your Senses: Elevate Every Day with Unforgettable Retail Magic!"<span>Retail Magic!"</span> </h2>
+<p className=''  >In today's digital age, shopping has become even more convenient, allowing us to discover a world of options with just a click. t's not just about acquiring things; it's about finding joy in the process. Each item we choose tells a story and contributes to our unique identity. Beyond the tangible goods, shopping is an opportunity to support businesses that align with our values. Choosing brands that prioritize sustainability and ethical practices can make our purchases feel even more meaningful. It's a chance to connect with craftsmanship, celebrate local artisans, and make choices that positively impact the world. As we embark on our shopping adventures, let's consider the transformative power of our choices. Whether it's enhancing our living spaces or investing in self-care, each purchase can contribute to a more intentional and fulfilling life. So, let's savor the moments, enjoy the process, and let shopping be a source of inspiration in our everyday lives.</p>
 </div>
 
 </div>
