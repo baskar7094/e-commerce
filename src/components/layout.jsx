@@ -24,8 +24,25 @@ export default function Layout() {
             <li className='nav-item'>
               <Link to={'/collections'} className='link'>products</Link>
             </li>
-        <li className='nav-item'>
-        <Link to={'./authodcation/login'} className='link  pe-lg-3   d-lg-none   ' >login</Link>
+            <li className='nav-item d-block d-lg-none   mx-5'>
+        <Link  className='link  pe-lg-3       ' type='button' data-bs-toggle='modal' data-bs-target='#account' >account
+            <div className='modal fade ' id='account'>
+<div className=' modal-dialog  ' >
+  <div className=' modal-content bg-primary-subtle  '>
+    <div className=' modal-body '>
+              <li className='nav-item  '>
+                <Link to={'/register'} className='nav-link text-primary  ' >register</Link>
+              </li>
+              <li className='nav-item  '>
+                <Link to={'/login'} className='nav-link text-danger'>login</Link>
+              </li>
+    </div>
+  </div>
+</div>
+      
+            </div>
+  
+        </Link>
 
         </li>
           </ul>
